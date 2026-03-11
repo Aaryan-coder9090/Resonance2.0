@@ -1,0 +1,94 @@
+{
+  "themes": [
+    {
+      "id": 1,
+      "title": "Analog Sensing for Industrial Applications",
+      "icon": "gauge",
+      "color": "from-blue-500 to-cyan-500",
+      "problemStatements": [
+        "Design a temperature monitoring system for industrial furnaces with analog signal conditioning",
+        "Create a pressure sensing circuit for hydraulic systems with 4-20mA output",
+        "Build an analog light intensity meter for quality control in manufacturing",
+        "Develop a vibration sensing system for predictive maintenance in rotating machinery",
+        "Design a pH measurement circuit for chemical processing plants",
+        "Create a humidity sensing system for climate-controlled storage facilities",
+        "Build an analog strain gauge amplifier for load measurement in cranes",
+        "Develop a current sensing circuit for motor overload protection",
+        "Design a flow rate measurement system using differential pressure sensors",
+        "Create an analog gas detection circuit for industrial safety monitoring"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Digital Logic Systems for Automation and Safety Control",
+      "icon": "cpu",
+      "color": "from-purple-500 to-pink-500",
+      "problemStatements": [
+        "Design a sequential traffic light controller using discrete logic gates",
+        "Create a conveyor belt control system with emergency stop functionality",
+        "Build a digital access control system with multi-level authentication",
+        "Develop an elevator floor selection and safety interlock system",
+        "Design a parking lot management system with entry/exit control",
+        "Create a water tank level controller with pump automation",
+        "Build a digital timer circuit for industrial process control",
+        "Develop a safety interlock system for industrial machinery",
+        "Design a shift register-based data transmission system",
+        "Create a priority encoder for emergency alarm systems"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Audio-based Human Interaction and Safety Sensing Systems",
+      "icon": "volume-2",
+      "color": "from-green-500 to-emerald-500",
+      "problemStatements": [
+        "Design an acoustic proximity warning system for industrial vehicles",
+        "Create a voice-activated emergency alert system",
+        "Build a sound level monitoring circuit for workplace safety compliance",
+        "Develop an ultrasonic distance measurement system for collision avoidance",
+        "Design a frequency-selective audio alarm system for different hazard levels",
+        "Create a clap-activated control system for hands-free operation",
+        "Build a audio feedback system for visually impaired navigation",
+        "Develop a noise cancellation circuit for communication in loud environments",
+        "Design a sound pattern recognition circuit for equipment fault detection",
+        "Create an intercom system with priority interrupt for emergency announcements"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Portable Electronic Diagnostic and Fault Detection Systems",
+      "icon": "search",
+      "color": "from-orange-500 to-red-500",
+      "problemStatements": [
+        "Design a portable continuity and short circuit tester",
+        "Create a handheld capacitor ESR measurement device",
+        "Build a transistor tester with gain measurement capability",
+        "Develop a portable logic probe with pulse detection",
+        "Design a cable fault locator using time-domain reflectometry principles",
+        "Create a battery health analyzer with internal resistance measurement",
+        "Build a portable frequency counter for signal analysis",
+        "Develop an LED/diode polarity and forward voltage tester",
+        "Design a portable ground fault detection system",
+        "Create a handheld signal generator for circuit troubleshooting"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Fail-safe Timing and Power Management Protection Systems",
+      "icon": "shield",
+      "color": "from-yellow-500 to-amber-500",
+      "problemStatements": [
+        "Design an under-voltage and over-voltage protection circuit for sensitive equipment",
+        "Create a programmable delay timer for motor soft-start applications",
+        "Build a power sequencing circuit for multi-rail power supplies",
+        "Develop a watchdog timer circuit for system reset on failure",
+        "Design a surge protection circuit with automatic recovery",
+        "Create a battery backup switching system with seamless changeover",
+        "Build a current limiting circuit with automatic retry functionality",
+        "Develop a power factor correction monitoring system",
+        "Design a thermal shutdown circuit for power electronics protection",
+        "Create a load shedding controller for power management during peak demand"
+      ]
+    }
+  ]
+}
