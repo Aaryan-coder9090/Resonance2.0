@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 export function RulebookSection() {
   const rulebooks = [
     {
-      title: "TRANSITRON",
+      title: "TRANSISTRON",
       subtitle: "Rulebook",
       description: "Complete rules, scoring criteria, and guidelines for the hands-on electronics challenge.",
       icon: <Zap className="w-6 h-6 text-blue-400" />,
