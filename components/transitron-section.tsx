@@ -62,7 +62,7 @@ export function TransitronSection() {
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             <span className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent">
-              TRANSITRON
+              TRANSISTRON
             </span>
           </h2>
           <p className="text-slate-400 max-w-3xl mx-auto text-lg">
