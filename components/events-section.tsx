@@ -84,7 +84,7 @@ function EventCard({ title, description, icon, rounds, rules, gradient, delay }:
 export function EventsSection() {
   const events = [
     {
-      title: "TRANSITRON",
+      title: "TRANSISTRON",
       description: "A hands-on electronics challenge where participants design and build practical circuits using discrete components. Test your skills from simulation to real-world implementation.",
       icon: <Zap className="w-6 h-6 text-blue-400" />,
       rounds: [
