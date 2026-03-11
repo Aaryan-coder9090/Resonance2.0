@@ -5,8 +5,8 @@ import { Mail, Phone, MapPin, CircuitBoard, Instagram, Linkedin, Twitter } from 
 
 export function Footer() {
   const coordinators = [
-    { name: "Coordinator 1", phone: "+91 98765 43210" },
-    { name: "Coordinator 2", phone: "+91 98765 43211" },
+    { name: "Coordinator 1(Transistron)", phone: "+91 89041 75693" },
+    { name: "Coordinator 2(Spinovate)", phone: "+91 73383 30412" },
   ]
 
   const socialLinks = [
