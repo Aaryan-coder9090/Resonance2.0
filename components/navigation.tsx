@@ -20,7 +20,7 @@ export function Navigation() {
   const navLinks = [
     { label: "About", href: "#about" },
     { label: "Events", href: "#events" },
-    { label: "Transitron", href: "#transitron" },
+    { label: "Transistron", href: "#transistron" },
     { label: "Spinovate", href: "#spinovate" },
     { label: "Themes", href: "#themes" },
     { label: "Rulebook", href: "#rulebook" },
