@@ -12,7 +12,7 @@ export function RulebookSection() {
       description: "Complete rules, scoring criteria, and guidelines for the hands-on electronics challenge.",
       icon: <Zap className="w-6 h-6 text-blue-400" />,
       gradient: "from-blue-500 to-cyan-500",
-      downloadLink: "#", // Replace with actual PDF link
+      downloadLink: "/transitron-rulebook.pdf", // Replace with actual PDF link
     },
     {
       title: "SPINOVATE",
@@ -20,7 +20,7 @@ export function RulebookSection() {
       description: "Rules for the spin-and-solve challenge including presentation guidelines.",
       icon: <RotateCcw className="w-6 h-6 text-purple-400" />,
       gradient: "from-purple-500 to-pink-500",
-      downloadLink: "#", // Replace with actual PDF link
+      downloadLink: "/spinovate-rulebook.pdf", // Replace with actual PDF link
     },
   ]
 
