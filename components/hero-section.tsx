@@ -118,7 +118,7 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.35 }}
             className="text-sm md:text-base text-slate-500 max-w-2xl mx-auto mb-8"
           >
-            Featuring Transitron — a hardware circuit design challenge — and Spinovate — a creative engineering problem-solving competition.
+            Featuring Transistron — a hardware circuit design challenge — and Spinovate — a creative engineering problem-solving competition.
           </motion.p>
 
           {/* Event Details */}
@@ -148,7 +148,7 @@ export function HeroSection() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-blue-500/10 to-cyan-500/10 border border-blue-500/30">
               <div className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
-              <span className="text-sm text-blue-300 font-medium">Transitron — Hardware Circuit Challenge</span>
+              <span className="text-sm text-blue-300 font-medium">Transistron — Hardware Circuit Challenge</span>
             </div>
             <div className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-purple-500/10 to-pink-500/10 border border-purple-500/30">
               <div className="w-2 h-2 rounded-full bg-purple-400 animate-pulse" />
