@@ -168,12 +168,15 @@ export function RegistrationSection() {
                       <span className="text-white font-medium text-sm">UPI Payment</span>
                     </div>
                     
-                    {/* QR Code Placeholder */}
-                    <div className="flex flex-col items-center">
-                      <div className={`w-40 h-40 rounded-xl border-2 border-dashed ${card.borderColor} bg-slate-900/50 flex flex-col items-center justify-center mb-3`}>
-                        <QrCode className={`w-12 h-12 ${card.iconColor} opacity-50 mb-2`} />
-                        <p className="text-slate-500 text-xs text-center px-4">UPI QR Code will appear here</p>
-                      </div>
+                    {/* QR Code */}
+<div className="flex flex-col items-center">
+  <div className={`w-40 h-40 rounded-xl border-2 border-dashed ${card.borderColor} overflow-hidden mb-3`}>
+    <img 
+      src="/upi-qr.png" 
+      alt="UPI QR Code" 
+      className="w-full h-full object-contain"
+    />
+  </div>
                       
                       {/* UPI ID */}
                       <div className="flex items-center gap-2 px-3 py-2 rounded-lg bg-slate-900/50 border border-slate-700/30">
