@@ -118,7 +118,7 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.35 }}
             className="text-sm md:text-base text-slate-500 max-w-2xl mx-auto mb-8"
           >
-            Featuring Transistron — a hardware circuit design challenge — and Spinovate — a creative engineering problem-solving competition.
+            Featuring Resonance 2.0 by Department of Electronics and Communication.
           </motion.p>
 
           {/* Event Details */}
