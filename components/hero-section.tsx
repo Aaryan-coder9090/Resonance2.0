@@ -116,7 +116,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.35 }}
-            className="text-sm md:text-base text-slate-500 max-w-2xl mx-auto mb-8"
+            className="text-sm md:text-base text-slate-350 max-w-2xl mx-auto mb-8"
           >
             Featuring Resonance 2.0 by Department of Electronics and Communication.
           </motion.p>
