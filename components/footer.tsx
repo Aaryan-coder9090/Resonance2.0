@@ -5,8 +5,8 @@ import { Mail, Phone, MapPin, CircuitBoard, Instagram, Linkedin, Twitter } from 
 
 export function Footer() {
   const coordinators = [
-    { name: "Coordinator 1(Transistron)", phone: "+91 89041 75693" },
-    { name: "Coordinator 2(Spinovate)", phone: "+91 73383 30412" },
+    { name: "Coordinator 1(Transistron)", phone: "+91 89041 75693, +91 87621 23799" },
+    { name: "Coordinator 2(Spinovate)", phone: "+91 73383 30412, +91 83104 30956" },
   ]
 
   const socialLinks = [
@@ -104,7 +104,7 @@ export function Footer() {
                     href="mailto:resonance@kletech.ac.in"
                     className="text-slate-400 hover:text-blue-400 text-sm transition-colors duration-200"
                   >
-                    resonance@kletech.ac.in
+                    Shivanishanbhag213@gmail.com
                   </a>
                 </li>
                 <li className="flex items-start gap-3">
