@@ -79,7 +79,7 @@ export function SpinovateSection() {
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800/50 border border-purple-500/20">
               <IndianRupee className="w-4 h-4 text-purple-400" />
-              <span className="text-slate-300 text-sm">Entry Fee: Rs.250 per Team</span>
+              <span className="text-slate-300 text-sm">Entry Fee: Rs.200 per Team</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800/50 border border-purple-500/20">
               <CheckCircle2 className="w-4 h-4 text-purple-400" />
