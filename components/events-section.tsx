@@ -111,7 +111,7 @@ export function EventsSection() {
       ],
       rules: [
         { icon: <Users className="w-4 h-4" />, text: "Maximum 3 members per team" },
-        { icon: <IndianRupee className="w-4 h-4" />, text: "Entry fee: Rs.250 per team" },
+        { icon: <IndianRupee className="w-4 h-4" />, text: "Entry fee: Rs.200 per team" },
         { icon: <Clock className="w-4 h-4" />, text: "1.5 hours for Round 1, no internet" },
         { icon: <CheckCircle2 className="w-4 h-4" />, text: "Top 6 teams advance to finals" },
       ],
