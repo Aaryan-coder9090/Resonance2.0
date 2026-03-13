@@ -42,7 +42,7 @@ export function TransitronSection() {
   ]
 
   return (
-    <section id="transitron" className="relative py-24 overflow-hidden">
+    <section id="transistron" className="relative py-24 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-slate-950 via-blue-950/20 to-slate-950" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-900/20 via-transparent to-transparent" />
