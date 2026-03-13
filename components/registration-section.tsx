@@ -180,7 +180,7 @@ export function RegistrationSection() {
                       
                       {/* UPI ID */}
                       <div className="flex items-center gap-2 px-3 py-2 rounded-lg bg-slate-900/50 border border-slate-700/30">
-                        <span className="text-slate-400 text-xs">UPI ID:</7338330412@axl>
+                        <span className="text-slate-400 text-xs">UPI ID:</span>
                         <code className={`text-xs font-mono ${card.iconColor}`}>{card.upiId}</code>
                       </div>
                     </div>
