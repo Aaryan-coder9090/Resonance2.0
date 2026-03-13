@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 
 const registrationCards = [
   {
-    title: "Transitron",
+    title: "Transistron",
     description: "Hardware Circuit Design Challenge",
     teamSize: "1-4 members",
     entryFee: "400",
@@ -27,7 +27,7 @@ const registrationCards = [
     title: "Spinovate",
     description: "Innovation & Problem-Solving Challenge",
     teamSize: "Maximum 3 members",
-    entryFee: "250",
+    entryFee: "200",
     buttonText: "Register for Spinovate",
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfTB7xCuB42qcg84LwDZyaBYUgAFxmYyuqUtEYvNlC30pbIQQ/viewform",
     upiId: "resonance@upi",
