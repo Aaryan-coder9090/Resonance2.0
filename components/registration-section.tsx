@@ -91,7 +91,7 @@ export function RegistrationSection() {
             <ol className="space-y-3 text-slate-300">
               <li className="flex gap-3">
                 <span className="text-blue-400 font-semibold flex-shrink-0">1.</span>
-                <span>Scan the UPI QR code and complete payment (Rs. 400 for Transitron, Rs. 250 for Spinovate)</span>
+                <span>Scan the UPI QR code and complete payment (Rs. 400 for Transitron, Rs. 200 for Spinovate)</span>
               </li>
               <li className="flex gap-3">
                 <span className="text-blue-400 font-semibold flex-shrink-0">2.</span>
@@ -180,7 +180,7 @@ export function RegistrationSection() {
                       
                       {/* UPI ID */}
                       <div className="flex items-center gap-2 px-3 py-2 rounded-lg bg-slate-900/50 border border-slate-700/30">
-                        <span className="text-slate-400 text-xs">UPI ID:</span>
+                        <span className="text-slate-400 text-xs">UPI ID:</7338330412@axl>
                         <code className={`text-xs font-mono ${card.iconColor}`}>{card.upiId}</code>
                       </div>
                     </div>
