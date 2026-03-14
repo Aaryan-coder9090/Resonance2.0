@@ -20,7 +20,7 @@ export function RulebookSection() {
       description: "Rules for the spin-and-solve challenge including presentation guidelines.",
       icon: <RotateCcw className="w-6 h-6 text-purple-400" />,
       gradient: "from-purple-500 to-pink-500",
-      downloadLink: "/spinovate-rulebook.pdf", // Replace with actual PDF link
+      downloadLink: "/spinovate-rule-book .pdf", // Replace with actual PDF link
     },
   ]
 
