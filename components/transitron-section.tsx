@@ -345,7 +345,7 @@ export function TransitronSection() {
                 className="group relative overflow-hidden bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 text-white font-semibold px-8 py-6 rounded-xl shadow-lg shadow-blue-500/25 transition-all duration-300 hover:shadow-blue-500/40 hover:scale-105 flex-shrink-0"
                 asChild
               >
-                <a href="/theme-book.pdf" download>
+                <a href="/transistron-themebook.pdf" download>
                   <Download className="w-5 h-5 mr-2" />
                   Download PDF
                 </a>
