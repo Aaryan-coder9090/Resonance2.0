@@ -12,7 +12,7 @@ export function RulebookSection() {
       description: "Complete rules, scoring criteria, and guidelines for the hands-on electronics challenge.",
       icon: <Zap className="w-6 h-6 text-blue-400" />,
       gradient: "from-blue-500 to-cyan-500",
-      downloadLink: "/transitron-rulebook.pdf", // Replace with actual PDF link
+      downloadLink: "/Rulebook-transistron.pdf", // Replace with actual PDF link
     },
     {
       title: "SPINOVATE",
