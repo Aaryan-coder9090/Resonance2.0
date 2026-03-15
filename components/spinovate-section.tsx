@@ -298,8 +298,8 @@ export function SpinovateSection() {
                   </h4>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <span className="text-2xl font-bold text-purple-400">3</span>
-                      <span className="text-slate-400 text-sm block">min presentation</span>
+                      <span className="text-2xl font-bold text-purple-400">Judging of Poster</span>
+                      <span className="text-slate-400 text-sm block"></span>
                     </div>
                     <div>
                       <span className="text-2xl font-bold text-purple-400">2</span>
@@ -364,8 +364,8 @@ export function SpinovateSection() {
                   </h4>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <span className="text-2xl font-bold text-pink-400">Judging of Poster</span>
-                      <span className="text-slate-400 text-sm block">undefined time</span>
+                      <span className="text-2xl font-bold text-pink-400">3</span>
+                      <span className="text-slate-400 text-sm block">min presentation</span>
                     </div>
                     <div>
                       <span className="text-2xl font-bold text-pink-400">2</span>
