@@ -83,11 +83,11 @@ export function HighlightsSection() {
       color: "from-purple-500 to-pink-500",
     },
     {
-      icon: <Trophy className="w-6 h-6 text-yellow-400" />,
-      value: "₹51,000",
-      label: "Prize Pool  (Transistron ₹45k • Spinovate ₹6k)",
-      color: "from-yellow-500 to-orange-500",
-    },
+  icon: <Trophy className="w-6 h-6 text-yellow-400" />,
+  value: "₹51,000",
+  label: <>Prize Pool<br />Transistron ₹45k • Spinovate ₹6k</>,
+  color: "from-yellow-500 to-orange-500",
+},
     {
       icon: <Wrench className="w-6 h-6 text-green-400" />,
       value: "Hands-on",
