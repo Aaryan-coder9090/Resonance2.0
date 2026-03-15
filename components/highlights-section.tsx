@@ -85,7 +85,7 @@ export function HighlightsSection() {
     {
   icon: <Trophy className="w-6 h-6 text-yellow-400" />,
   value: "₹51,000",
-  label: <>Prize Pool<br />Transistron ₹45k • Spinovate ₹6k</>,
+  label: <>Prize Pool<br />Transistron ₹45k   Spinovate ₹6k</>,
   color: "from-yellow-500 to-orange-500",
 },
     {
