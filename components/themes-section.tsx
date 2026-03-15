@@ -41,7 +41,7 @@ export function ThemesSection() {
     },
     {
       id: 4,
-      title: "Portable Electronic Diagnostic and Fault Detection Systems",
+      title: "Discrete Logic Design and VLSI Principles for Industrial Systems",
       icon: "search",
       color: "from-orange-500 to-red-500",
     },
