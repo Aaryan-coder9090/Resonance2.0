@@ -101,6 +101,10 @@ export function RegistrationSection() {
                 <span className="text-blue-400 font-semibold flex-shrink-0">3.</span>
                 <span>Submit proof of payment if required during the form submission (no refunds allowed once registered)</span>
               </li>
+              <li className="flex gap-3">
+    <span className="text-blue-400 font-semibold flex-shrink-0">4.</span>
+    <span>Last date for registration is April 5</span>
+                </li>
             </ol>
           </div>
         </motion.div>
