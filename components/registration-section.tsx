@@ -99,7 +99,7 @@ export function RegistrationSection() {
               </li>
               <li className="flex gap-3">
                 <span className="text-blue-400 font-semibold flex-shrink-0">3.</span>
-                <span>Submit proof of payment if required during the form submission(no refunds allowed once registered)</span>
+                <span>Submit proof of payment if required during the form submission (no refunds allowed once registered)</span>
               </li>
             </ol>
           </div>
