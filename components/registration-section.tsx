@@ -10,7 +10,7 @@ const registrationCards = [
     description: "Hardware Circuit Design Challenge",
     teamSize: "1-4 members",
     entryFee: "400",
-    buttonText: "Register for Transitron",
+    buttonText: "Register for Transistron",
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLSf-15eD1no6gcXQgI64qtSKbW0wilgCXaC1iIhe8NJqMHAJzA/viewform",
     upiId: "7338330412@axl",
     icon: <Cpu className="w-8 h-8" />,
