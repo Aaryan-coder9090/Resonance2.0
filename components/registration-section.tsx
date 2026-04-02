@@ -103,7 +103,7 @@ export function RegistrationSection() {
               </li>
               <li className="flex gap-3">
     <span className="text-blue-400 font-semibold flex-shrink-0">4.</span>
-    <span>Last date for registration is April 5</span>
+    <span>Last date for registration is April 11</span>
                 </li>
             </ol>
           </div>
