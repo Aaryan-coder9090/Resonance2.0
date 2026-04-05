@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 
 const registrationCards = [
   {
-    title: "Transistron",
+    title: "Transistron(registration is closed)",
     description: "Hardware Circuit Design Challenge",
     teamSize: "1-4 members",
     entryFee: "400",
