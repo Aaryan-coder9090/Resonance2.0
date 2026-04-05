@@ -13,6 +13,7 @@ const registrationCards = [
     buttonText: "Register for Transistron",
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLSf-15eD1no6gcXQgI64qtSKbW0wilgCXaC1iIhe8NJqMHAJzA/viewform",
     upiId: "7338330412@axl",
+    showQR: false, // ❌ QR removed here
     icon: <Cpu className="w-8 h-8" />,
     gradient: "from-blue-500 to-cyan-500",
     bgGradient: "from-blue-500/10 to-cyan-500/10",
@@ -31,6 +32,7 @@ const registrationCards = [
     buttonText: "Register for Spinovate",
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfTB7xCuB42qcg84LwDZyaBYUgAFxmYyuqUtEYvNlC30pbIQQ/viewform",
     upiId: "7338330412@axl",
+    showQR: true, // ✅ QR stays here
     icon: <Lightbulb className="w-8 h-8" />,
     gradient: "from-purple-500 to-pink-500",
     bgGradient: "from-purple-500/10 to-pink-500/10",
@@ -52,7 +54,7 @@ export function RegistrationSection() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-purple-900/10 via-transparent to-transparent" />
 
       <div className="container relative z-10 mx-auto px-4">
-        {/* Section Header */}
+        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -64,18 +66,20 @@ export function RegistrationSection() {
             <Sparkles className="w-4 h-4 text-green-400" />
             <span className="text-sm text-green-400 font-medium">Registration Open</span>
           </div>
+
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
             Event{" "}
             <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
               Registration
             </span>
           </h2>
+
           <p className="text-slate-400 max-w-2xl mx-auto text-lg">
             Choose your event and register your team to compete in RESONANCE 2.0.
           </p>
         </motion.div>
 
-        {/* Payment Instructions */}
+        {/* Instructions */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -88,28 +92,29 @@ export function RegistrationSection() {
               <CreditCard className="w-5 h-5 text-blue-400" />
               How to Register
             </h3>
+
             <ol className="space-y-3 text-slate-300">
               <li className="flex gap-3">
-                <span className="text-blue-400 font-semibold flex-shrink-0">1.</span>
-                <span>Scan the UPI QR code and complete payment (Rs. 400 for Transitron, Rs. 200 for Spinovate)</span>
+                <span className="text-blue-400 font-semibold">1.</span>
+                <span>Scan the UPI QR code and complete payment</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-blue-400 font-semibold flex-shrink-0">2.</span>
-                <span>Fill the appropriate Google Form below with your team details</span>
+                <span className="text-blue-400 font-semibold">2.</span>
+                <span>Fill the Google Form</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-blue-400 font-semibold flex-shrink-0">3.</span>
-                <span>Submit proof of payment if required during the form submission (no refunds allowed once registered)</span>
+                <span className="text-blue-400 font-semibold">3.</span>
+                <span>Submit proof if required</span>
               </li>
               <li className="flex gap-3">
-    <span className="text-blue-400 font-semibold flex-shrink-0">4.</span>
-    <span>Last date for registration is April 11</span>
-                </li>
+                <span className="text-blue-400 font-semibold">4.</span>
+                <span>Last date: April 11</span>
+              </li>
             </ol>
           </div>
         </motion.div>
 
-        {/* Registration Cards with Payment */}
+        {/* Cards */}
         <div className="grid lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {registrationCards.map((card, index) => (
             <motion.div
@@ -120,88 +125,49 @@ export function RegistrationSection() {
               transition={{ duration: 0.6, delay: index * 0.2 }}
               className="group relative"
             >
-              {/* Glow effect */}
-              <div
-                className={`absolute -inset-0.5 bg-gradient-to-r ${card.gradient} rounded-2xl blur opacity-0 group-hover:opacity-40 transition-opacity duration-500`}
-              />
+              <div className={`absolute -inset-0.5 bg-gradient-to-r ${card.gradient} rounded-2xl blur opacity-0 group-hover:opacity-40`} />
 
-              <div
-                className={`relative rounded-2xl border ${card.borderColor} bg-slate-900/80 backdrop-blur-sm overflow-hidden transition-all duration-500 group-hover:border-opacity-80 ${card.glowColor}`}
-              >
-                {/* Top gradient bar */}
+              <div className={`relative rounded-2xl border ${card.borderColor} bg-slate-900/80 overflow-hidden`}>
                 <div className={`h-1.5 bg-gradient-to-r ${card.gradient}`} />
 
-                <div className="relative p-6 md:p-8">
+                <div className="p-6 md:p-8">
                   {/* Header */}
                   <div className="flex items-start gap-4 mb-6">
-                    <div
-                      className={`w-16 h-16 rounded-2xl ${card.iconBg} border flex items-center justify-center ${card.iconColor} transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg`}
-                    >
+                    <div className={`w-16 h-16 rounded-2xl ${card.iconBg} border flex items-center justify-center ${card.iconColor}`}>
                       {card.icon}
                     </div>
+
                     <div>
                       <h3 className={`text-2xl font-bold bg-gradient-to-r ${card.gradient} bg-clip-text text-transparent`}>
                         {card.title}
                       </h3>
-                      <p className="text-slate-400 text-sm mt-1">{card.description}</p>
+                      <p className="text-slate-400 text-sm">{card.description}</p>
                     </div>
                   </div>
 
-                  {/* Team Size and Fee */}
+                  {/* Info */}
                   <div className="grid grid-cols-2 gap-4 mb-6">
-                    <div className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 border border-slate-700/30">
-                      <Users className={`w-5 h-5 ${card.iconColor}`} />
-                      <div>
-                        <p className="text-white font-semibold text-sm">Team Size</p>
-                        <p className="text-slate-400 text-xs">{card.teamSize}</p>
-                      </div>
+                    <div className="p-3 bg-slate-800 rounded-xl">
+                      <p className="text-white text-sm font-semibold">Team</p>
+                      <p className="text-slate-400 text-xs">{card.teamSize}</p>
                     </div>
-                    <div className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 border border-slate-700/30">
-                      <IndianRupee className={`w-5 h-5 ${card.iconColor}`} />
-                      <div>
-                        <p className="text-white font-semibold text-sm">Entry Fee</p>
-                        <p className="text-slate-400 text-xs">Rs.{card.entryFee} per team</p>
-                      </div>
+                    <div className="p-3 bg-slate-800 rounded-xl">
+                      <p className="text-white text-sm font-semibold">Fee</p>
+                      <p className="text-slate-400 text-xs">Rs.{card.entryFee}</p>
                     </div>
                   </div>
 
-                  {/* QR Code Section */}
-                  <div className={`rounded-xl border ${card.borderColor} bg-slate-800/30 p-4 mb-6`}>
-                    <div className="flex items-center gap-2 mb-3">
-                      <QrCode className={`w-4 h-4 ${card.iconColor}`} />
-                      <span className="text-white font-medium text-sm">UPI Payment</span>
+                  {/* ✅ Conditional QR */}
+                  {card.showQR && (
+                    <div className="mb-6 text-center">
+                      <img src="/upi-qr.png" className="w-40 mx-auto mb-2" />
+                      <code className="text-xs text-slate-400">{card.upiId}</code>
                     </div>
-                    
-                    {/* QR Code */}
-<div className="flex flex-col items-center">
-  <div className={`w-40 h-40 rounded-xl border-2 border-dashed ${card.borderColor} overflow-hidden mb-3`}>
-    <img 
-      src="/upi-qr.png" 
-      alt="UPI QR Code" 
-      className="w-full h-full object-contain"
-    />
-  </div>
-                      
-                      {/* UPI ID */}
-                      <div className="flex items-center gap-2 px-3 py-2 rounded-lg bg-slate-900/50 border border-slate-700/30">
-                        <span className="text-slate-400 text-xs">UPI ID:</span>
-                        <code className={`text-xs font-mono ${card.iconColor}`}>{card.upiId}</code>
-                      </div>
-                    </div>
+                  )}
 
-                    {/* Payment instruction */}
-                    <p className="text-slate-500 text-xs text-center mt-3">
-                      After completing payment, proceed to the registration form.
-                    </p>
-                  </div>
-
-                  {/* Registration Button */}
-                  <Button
-                    size="lg"
-                    className={`w-full group/btn relative overflow-hidden bg-gradient-to-r ${card.buttonGradient} text-white font-semibold py-6 text-base rounded-xl shadow-lg ${card.shadowColor} transition-all duration-300 hover:scale-[1.02]`}
-                    asChild
-                  >
-                    <a href={card.formLink} target="_blank" rel="noopener noreferrer">
+                  {/* Button */}
+                  <Button asChild className="w-full">
+                    <a href={card.formLink} target="_blank">
                       {card.buttonText}
                       <ExternalLink className="ml-2 w-4 h-4" />
                     </a>
@@ -211,22 +177,6 @@ export function RegistrationSection() {
             </motion.div>
           ))}
         </div>
-
-        {/* Footer note */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="text-center mt-10"
-        >
-          <p className="text-slate-400 text-sm mb-2">
-            Registrations are handled through Google Forms. All responses are automatically recorded.
-          </p>
-          <p className="text-slate-500 text-xs">
-            Limited spots available. Register early to secure your participation!
-          </p>
-        </motion.div>
       </div>
     </section>
   )
