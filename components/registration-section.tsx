@@ -32,7 +32,7 @@ const registrationCards = [
     buttonText: "Register for Spinovate",
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfTB7xCuB42qcg84LwDZyaBYUgAFxmYyuqUtEYvNlC30pbIQQ/viewform",
     upiId: "7338330412@axl",
-    showQR: true, // ✅ QR stays here
+    showQR: false, // ✅ QR stays here
     icon: <Lightbulb className="w-8 h-8" />,
     gradient: "from-purple-500 to-pink-500",
     bgGradient: "from-purple-500/10 to-pink-500/10",
