@@ -25,7 +25,7 @@ const registrationCards = [
     glowColor: "group-hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]",
   },
   {
-    title: "Spinovate",
+    title: "Spinovate(Registration is closed)",
     description: "Innovation & Problem-Solving Challenge",
     teamSize: "Maximum 3 members",
     entryFee: "200",
@@ -64,7 +64,7 @@ export function RegistrationSection() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20 mb-6">
             <Sparkles className="w-4 h-4 text-green-400" />
-            <span className="text-sm text-green-400 font-medium">Registration Open</span>
+            <span className="text-sm text-green-400 font-medium">Registration Closed</span>
           </div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
